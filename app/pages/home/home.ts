@@ -30,7 +30,7 @@ function requestPermissions() {
         .catch(function (result) {
           console.log("Permissions failed :(", result);
           console.dir(result);
-          resolve(false);
+          reject(false);
         });
 
   });
