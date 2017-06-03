@@ -123,7 +123,6 @@ function onMapReady(args) {
     marker.visible = false;
     marker.userData = {index: 2};
     mapView.addMarker(marker);
-    console.log("hereeeeeeeeeeeeeeeeeeeee");
   requestPermissions()
     .then(function(granted) {
         if(granted) {

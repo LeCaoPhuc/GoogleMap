@@ -51,6 +51,10 @@ apps/platforms/
 apps/lib/
 apps/hooks/
 apps/node_modules/
+node_modules/
+dist/
+package/
+platforms/
 
 #VSCode
 .vscode/
