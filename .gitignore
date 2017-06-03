@@ -1,47 +1,56 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# generated files
+*.map
+*.tgz
+.baseDir.ts
+.sublime-grunt.cache
+tscommand*.tmp.txt
+.tscache
 
-# Folder config file
-Desktop.ini
+node_modules/
+dist/
+package/
+platforms/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+*.js
+!tests/hooks/**/*.*
+!gruntfile.js
+!js-libs/**/*.*
+!css/**/*.*
+!css-value/**/*.*
+!fetch/**/*.*
+!apps/TelerikNEXT/lib/**/*.*
+!build/**/*.*
+CrossPlatformModules.sln.ide/
+*.suo
+CrossPlatformModules.suo
+CrossPlatformModules.v14.suo
+CrossPlatformModules.csproj.user
+bin/
+obj/
+.vs/
+.idea/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+.baseDir.ts
+.ctags-exclude
+tags
 
-# Windows shortcuts
-*.lnk
+TestRunResult.txt
+.testsapprun
 
-# =========================
-# Operating System Files
-# =========================
+tns-core-modules.base.d.ts
+tns-core-modules.d.ts
+tns-core-modules.es6.d.ts
 
-# OSX
-# =========================
+tests/platforms/
+tests/lib/
+*.log
 
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Thumbnails
-._*
+apps/platforms/
+apps/lib/
+apps/hooks/
+apps/node_modules/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#VSCode
+.vscode/
